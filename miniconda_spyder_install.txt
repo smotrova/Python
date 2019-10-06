@@ -1,0 +1,21 @@
+1. Install Miniconda
+https://docs.conda.io/en/latest/miniconda.html
+
+Note:
+Installing conda on a system that has other Python installations or packages
+let the installer add the conda installation of Python to your PATH environment
+variable.
+
+2. Install Spyder using conda promt
+
+  conda install -c anaconda spyder
+
+3. Install pandas, matplotlib using conda promt
+
+  conda install pandas
+  conda install matplotlib
+
+4. Install Spyder notebook plugin
+https://github.com/spyder-ide/spyder-notebook
+
+  conda install spyder-notebook -c spyder-ide
