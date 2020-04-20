@@ -1,0 +1,15 @@
+Conda:
+
+conda install -c conda-forge jupyter_contrib_nbextensions
+
+
+Pip:
+
+pip install jupyter_contrib_nbextensions
+
+===================================================
+
+Open notebooks from the command line
+
+python3 -m pip install nbopen
+python3 -m nbopen.install_win
